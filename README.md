@@ -16,16 +16,13 @@ Refactor your calculator program from **Problem 0-4: Calculator** to use methods
 
 Write a program that asks the user for two strings (allowing for spaces) with the Scanner, and uses a method called `areIdentical` to determine whether the two strings are all the same letter character (e.g. all 'a'). The strings may be different lengths! The method should return a true or false value which you should then print to the screen.
 
-Example:
-`areIdentical('aaaa', 'aa')` should return `true`
-`areIdentical('aaa', 'ab')` should return `false`
+Example: `areIdentical('aaaa', 'aa')` should return `true`. `areIdentical('aaa', 'ab')` should return `false`.
 
 ### 1-2: Sticky Text
 
 Write a program that asks the user for a string with the Scanner, processes it using a method called `createStickyText`, and transforms each letter into alternating lowercase and capital letters. Skip over any character that isn’t a letter (e.g. a space, punctuation) as you transform the letters.  Your method should return a string, and you should print the result.
 
-Example:
-`createStickyText("Hello, world")` should return `"HeLlO, wOrLd"`
+Example: `createStickyText("Hello, world")` should return `"HeLlO, wOrLd"`.
 
 Bonus: Add tildes ~ and astrices * onto either end of the new string. (+1 pt)
 
