@@ -1,7 +1,7 @@
 # Problem Set 1
 
 ## Directions
-* Fork Java Problem Set 1 from repl.it
+* Fork [Java Problem Set 1](https://repl.it/@kellylougheed/Java-Problem-Set-1) from repl.it
 *	Main.java serves as the runner for all your files; complete each problem in the appropriately named file. Any code that you want to execute when the pset runs (e.g. a method call) should be included in your main method
 *	At the top of each file, comment a description of the program, your name, and the date
 *	Add comments throughout each program if your code is not self-explanatory
