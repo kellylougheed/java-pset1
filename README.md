@@ -10,7 +10,7 @@
 
 ### 1-0: Calculator II: Methods
 
-Refactor your calculator program from **Problem 0-4: Calculator** to use methods. There should be a separate method for each mathematical operation. Each method should have parameters and return a value.
+Refactor your calculator program from **Problem 0-4: Calculator** to use methods. There should be a separate method for each mathematical operation. Each method should have parameters and return a value. The calculator should still use a scanner to take in two integers and allow the user to select an operation.
 
 ### 1-1: Identical
 
@@ -24,7 +24,7 @@ Write a program that asks the user for a string with the Scanner, processes it u
 
 Example: `createStickyText("Hello, world")` should return `"HeLlO, wOrLd"`.
 
-Bonus: Add tildes ~ and astrices * onto either end of the new string. (+1 pt)
+Bonus: Add tildes `~` and astrices `*` onto either end of the new string. (+1 pt)
 
 ### 1-3: Password Checker
 
@@ -33,6 +33,8 @@ Write a program that asks for a user’s password with the Scanner, runs it thro
 *	Contains at least one uppercase and one lowercase letter
 *	Contains at least one number
 *	Contains at least one special character (!, @, #, etc)
+
+**Challenge**: Ask the user if they have another password they would like to check, and allow them to check another password if so. (+2 pts)
 
 ### 1-4: Caesar Cipher
 
@@ -63,6 +65,6 @@ c--p----
 
 **Challenge**: Look up arrays in Java and store multiple words in an array. Select one of these words randomly every time the user plays. (+2 pts) 
 
-**Challenge**: Ask the user if they would like to play again, and allow them to do so if they choose to. (+1 pt)
+**Challenge**: Ask the user if they would like to play again, and allow them to do so if they choose to. (+2 pts)
 
-**Challenge**: Keep track of the user’s guesses and limit the number of them. The user loses when they have used up all their guesses without guessing the word. (+1 pt)
+**Challenge**: Keep track of the user’s guesses and limit the number of them. The user loses when they have used up all their guesses without guessing the word. (+2 pts)
