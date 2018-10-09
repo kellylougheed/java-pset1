@@ -14,13 +14,13 @@ Refactor your calculator program from **Problem 0-4: Calculator** to use methods
 
 ### 1-1: Identical
 
-Write a program that asks the user for two strings (allowing for spaces) with the Scanner, and uses a method called `areIdentical` to determine whether the two strings are all the same letter character (e.g. all 'a'). The strings may be different lengths! The method should return a true or false value which you should then print to the screen.
+Write a program that asks the user for two strings (allowing for spaces) with the Scanner, and uses a method called `areIdentical` to determine whether the two strings are all the same letter character (e.g. all 'a'). The strings may be different lengths! The method should take in two strings as parameters and return a true or false value which you should then print to the screen.
 
 Example: `areIdentical('aaaa', 'aa')` should return `true`. `areIdentical('aaa', 'ab')` should return `false`.
 
 ### 1-2: Sticky Text
 
-Write a program that asks the user for a string with the Scanner, processes it using a method called `createStickyText`, and transforms each letter into alternating lowercase and capital letters. Skip over any character that isn’t a letter (e.g. a space, punctuation) as you transform the letters.  Your method should return a string, and you should print the result.
+Write a program that asks the user for a string with the Scanner, processes it using a method called `createStickyText`, and transforms each letter into alternating lowercase and capital letters. Skip over any character that isn’t a letter (e.g. a space, punctuation) as you transform the letters.  Your method should accept a string as a parameter and return a string, and you should print the result.
 
 Example: `createStickyText("Hello, world")` should return `"HeLlO, wOrLd"`.
 
@@ -28,7 +28,7 @@ Bonus: Add tildes `~` and astrices `*` onto either end of the new string. (+1 pt
 
 ### 1-3: Password Checker
 
-Write a program that asks for a user’s password with the Scanner, runs it through a method called `checkPassword`, and then prints the output (true or false). The `checkPassword` method should only return true if the user’s password:
+Write a program that asks for a user’s password with the Scanner, runs it through a method called `checkPassword`, and then prints the output (true or false). The `checkPassword` method should accept a string as a parameter and only return true if the user’s password:
 *	Is eight or more characters
 *	Contains at least one uppercase and one lowercase letter
 *	Contains at least one number
@@ -38,13 +38,15 @@ Write a program that asks for a user’s password with the Scanner, runs it thro
 
 ### 1-4: Caesar Cipher
 
-Write a program that asks the user for a string and a key (int) with the Scanner. It should run these two inputs through a method called `encrypt` that takes in a string and integer and returns a ciphertext. Print the ciphertext. The `encrypt` method should encrypt the text with the [Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher/).
+Write a program that asks the user for a string and a key (int) with the Scanner. It should run these two inputs through a method called `encrypt` that takes in a string and integer and returns a ciphertext. Print the ciphertext. The `encrypt` method should accept a string as a parameter and return a string encrypted with the [Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher/). Print the result.
 
 You may also wish to look back at the [CS50 problem Caesar](https://docs.cs50.net/2017/ap/problems/caesar/caesar.html).
 
 ### 1-5: Hamlet
 
-Make Hamlet a Valley girl. Write a method that takes in a string and inserts "like" between every single word. Call this method with the "To be or not to be" monologue provided for you and print the result. 
+Make Hamlet a Valley girl. Write a method that accepts a string as a parameter and returns a new string with "like" inserted between every single word (except when a line starts/ends). Call this method with the "To be or not to be" monologue provided for you and print the result. 
+
+**Challenge**: Insert "like" even when the line ends. (+2 pts)
 
 ### 1-6: Hangman
 
