@@ -34,7 +34,7 @@ Write a program that asks for a user’s password with the Scanner, runs it thro
 *	Is eight or more characters
 *	Contains at least one uppercase and one lowercase letter
 *	Contains at least one number
-*	Contains at least one special character (!, @, #, etc)
+*	Contains at least one special character (!, @, #, $, %, *, or (, ), )
 
 **Challenge**: Ask the user if they have another password they would like to check, and allow them to check another password if so. (+2 pts)
 
